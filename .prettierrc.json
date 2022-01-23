@@ -1,0 +1,6 @@
+{
+	"singleQuote": false,
+	"svelteIndentScriptAndStyle": false,
+	"useTabs": true,
+	"printWidth": 120
+}
