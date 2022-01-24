@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Niklas' very awesome site</title>
+</svelte:head>
+
 <main>
 	<div class="intro">
 		<h1 class="heading">Hey, I'm Niklas</h1>
