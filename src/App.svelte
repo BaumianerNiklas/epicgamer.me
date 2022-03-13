@@ -13,7 +13,7 @@
 </main>
 
 <style global>
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap");
 
 * {
 	box-sizing: border-box;
@@ -36,10 +36,16 @@ main {
 
 h1 {
 	text-align: center;
-	color: #448aff;
 	font-size: 3.5rem;
 	margin-bottom: 15px;
 }
+.heading {
+	font-weight: bold;
+	background: linear-gradient(to right, #18ffff, #617ee2);
+	background-clip: text;
+	color: transparent;
+}
+
 p,
 a {
 	font-size: 1.5rem;
