@@ -53,6 +53,10 @@ a {
 	margin-bottom: 15px;
 }
 
+p {
+	text-align: center;
+}
+
 .links {
 	display: flex;
 	justify-content: center;
