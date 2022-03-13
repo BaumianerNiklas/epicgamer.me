@@ -42,6 +42,7 @@ h1 {
 .heading {
 	font-weight: bold;
 	background: linear-gradient(to right, #18ffff, #617ee2);
+	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
 }
