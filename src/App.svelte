@@ -1,79 +1,30 @@
+<script>
+import TheIntro from "./components/TheIntro.svelte";
+</script>
+
 <svelte:head>
 	<title>Niklas' very awesome site</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 </svelte:head>
 
-<main>
-	<div class="intro">
-		<h1 class="heading">Hey, I'm Niklas</h1>
-		<p>You'll find me online as <code>BaumianerNiklas</code> or <code>Neoon</code>.</p>
-		<div class="links">
-			<a href="https://github.com/BaumianerNiklas" class="gh-link">GitHub</a>
-		</div>
-	</div>
-</main>
+<TheIntro />
 
 <style global>
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap");
 
+:root {
+	--clr-bg: #0a0a0a;
+	--clr-gradient-primary: linear-gradient(to right, #7297fc, #18ffff);
+}
 * {
-	box-sizing: border-box;
-	padding: 0;
 	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-
-main {
-	width: 100vw;
-	height: 100vh;
-	background-color: #1a1b26;
-	font-family: "Source Code Pro", monospace;
-	display: flex;
-	justify-content: center;
-}
-
-.intro {
-	margin-top: 25vh;
-}
-
-h1 {
-	text-align: center;
-	font-size: 3.5rem;
-	margin-bottom: 15px;
-}
-.heading {
-	font-weight: bold;
-	background: linear-gradient(to right, #18ffff, #617ee2);
-	-webkit-background-clip: text;
-	background-clip: text;
-	color: transparent;
-}
-
-p,
-a {
-	font-size: 1.5rem;
+body {
+	min-height: 100vh;
 	color: white;
-	margin-bottom: 15px;
-}
-
-p {
-	text-align: center;
-}
-
-.links {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-a {
-	width: fit-content;
-	text-decoration: underline white;
-}
-
-a:hover {
-	width: fit-cotent;
-	color: white;
-	text-decoration: none;
-	color: #1a1b26;
-	background-color: #448aff;
+	font-family: "Inter", sans-serif;
+	background-color: var(--clr-bg);
 }
 </style>
