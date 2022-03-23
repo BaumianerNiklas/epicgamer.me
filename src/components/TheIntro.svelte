@@ -42,10 +42,4 @@ p {
 	font-size: 1.3rem;
 	max-width: 85vw;
 }
-span {
-	background: var(--clr-gradient-primary);
-	background-clip: text;
-	-webkit-background-clip: text;
-	color: transparent;
-}
 </style>

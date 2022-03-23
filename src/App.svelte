@@ -1,12 +1,16 @@
 <script>
 import TheIntro from "./components/TheIntro.svelte";
+import ProjectList from "./components/ProjectList.svelte";
 </script>
 
 <svelte:head>
 	<title>Niklas' very awesome site</title>
 </svelte:head>
 
-<TheIntro />
+<main>
+	<TheIntro />
+	<ProjectList />
+</main>
 
 <style global>
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap");
@@ -25,5 +29,14 @@ body {
 	color: white;
 	font-family: "Inter", sans-serif;
 	background-color: var(--clr-bg);
+}
+section {
+	margin-bottom: 10vh;
+}
+.gradient-text {
+	background: var(--clr-gradient-primary);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
 }
 </style>
