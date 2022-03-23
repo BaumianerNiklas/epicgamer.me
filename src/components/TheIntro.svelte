@@ -24,6 +24,9 @@ section {
 }
 .intro-paragraph {
 	margin-top: 7.5vh;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
 }
 h1,
 p,
