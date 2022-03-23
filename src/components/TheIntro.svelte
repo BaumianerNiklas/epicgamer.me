@@ -11,7 +11,7 @@ import SocialLink from "./SocialLink.svelte";
 		</p>
 	</div>
 	<div class="socials">
-		<SocialLink iconName="github" url="https://github.com/BaumianerNiklas" />
+		<SocialLink iconName="logo-github" url="https://github.com/BaumianerNiklas" />
 	</div>
 </section>
 

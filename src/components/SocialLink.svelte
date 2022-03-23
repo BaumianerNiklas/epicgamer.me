@@ -1,12 +1,16 @@
 <script lang="ts">
-/** The name of a bootstrap icon (without the 'bi-' prefix)*/
+/** The name of a Ionicon icon */
 export let iconName: string;
-/** The url this button should link to upon pressing */
+/** The url this button should link to */
 export let url: string;
 </script>
 
 <div class="circle">
-	<a href={url} target="blank"><i class="bi-{iconName}" /></a>
+	<a href={url} target="blank">
+		<div class="icon-container">
+			<ion-icon name={iconName} />
+		</div>
+	</a>
 </div>
 
 <style>
@@ -22,13 +26,17 @@ export let url: string;
 .circle:hover {
 	cursor: pointer;
 }
-i {
+.icon-container {
+	display: grid;
+	place-items: center;
+}
+ion-icon {
+	text-align: center;
 	color: white;
-	font-size: 1.75rem;
-	text-emphasis: none;
+	font-size: 2rem;
 	transition: 0.1s ease-in-out;
 }
-.circle:hover > a > i {
-	font-size: 2rem;
+.circle:hover ion-icon {
+	font-size: 2.3rem;
 }
 </style>

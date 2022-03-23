@@ -4,7 +4,6 @@ import TheIntro from "./components/TheIntro.svelte";
 
 <svelte:head>
 	<title>Niklas' very awesome site</title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 </svelte:head>
 
 <TheIntro />
