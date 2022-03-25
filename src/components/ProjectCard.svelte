@@ -1,5 +1,6 @@
 <script lang="ts">
 import type { Project } from "../data/projects";
+import TechnologyIcon from "./TechnologyIcon.svelte";
 
 export let project: Project;
 </script>
@@ -25,10 +26,17 @@ export let project: Project;
 		</div>
 	</div>
 	<p>{project.description}</p>
+	<div class="tech-stack">
+		{#each project.stack as technology}
+			<TechnologyIcon {technology} />
+		{/each}
+	</div>
 </div>
 
 <style>
 .card {
+	display: flex;
+	flex-direction: column;
 	padding: 1rem;
 	border-radius: 10px;
 	background-color: #14171e;
@@ -46,6 +54,14 @@ export let project: Project;
 	gap: 0.2rem;
 }
 
+p {
+	margin-bottom: 0.4rem;
+}
+
+.tech-stack {
+	margin-left: auto;
+	margin-top: auto;
+}
 ion-icon {
 	color: white;
 	font-size: 1.5rem;
