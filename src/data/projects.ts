@@ -8,7 +8,6 @@ export interface Project {
 
 export enum Technology {
 	TypeScript,
-	Node,
 	Svelte,
 	Rust,
 }
@@ -18,13 +17,13 @@ export const projectData: Project[] = [
 		name: "Waddle Bot",
 		description: "Multipurpose discord.js v13 bot with lots of fun features",
 		repoName: "Waddle-Bot",
-		stack: [Technology.TypeScript, Technology.Node],
+		stack: [Technology.TypeScript],
 	},
 	{
 		name: "Iubus",
-		description: "[WIP] Dead simple discord.js v14 framework for easily dealing with slash commands",
+		description: "[WIP] Dead simple discord.js v14 slash command framework",
 		repoName: "iubus",
-		stack: [Technology.TypeScript, Technology.Node],
+		stack: [Technology.TypeScript],
 	},
 	{
 		name: "Quicalc",
