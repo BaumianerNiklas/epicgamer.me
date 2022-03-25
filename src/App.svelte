@@ -31,7 +31,7 @@ body {
 	background-color: var(--clr-bg);
 }
 section {
-	margin-bottom: 10vh;
+	margin-bottom: 5vh;
 }
 .gradient-text {
 	background: var(--clr-gradient-primary);
