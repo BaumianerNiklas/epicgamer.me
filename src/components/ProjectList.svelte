@@ -6,8 +6,8 @@ import ProjectCard from "./ProjectCard.svelte";
 <section>
 	<h1 class="gradient-text">Projects</h1>
 	<p>
-		I tend to jump from project to project before finishing one completely, but here's a selection of things I've made
-		and/or am working on
+		Here's a selection of things I am currently working on or have made in the past. I'm a big believer in the
+		principles of open source so you'll find the source code to all my projects on GitHub :D
 	</p>
 
 	<div class="project-board">
@@ -34,8 +34,8 @@ h1 {
 	font-size: 2.5rem;
 }
 p {
-	font-size: 1.3rem;
-	max-width: 85vw;
+	font-size: 1.2rem;
+	max-width: min(85vw, 65rem);
 	margin-top: 1em;
 }
 
@@ -43,7 +43,7 @@ p {
 	margin-top: 1.3rem;
 	display: grid;
 	max-width: 70vw;
-	grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 	gap: 1rem;
 }
 </style>
