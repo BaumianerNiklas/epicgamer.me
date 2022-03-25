@@ -36,6 +36,7 @@ export const projectData: Project[] = [
 		name: "epicgamer.me",
 		description: "My personal site, you're looking at it right now!",
 		repoName: "epicgamer.me",
+		url: "https://epicgamer.me",
 		stack: [Technology.TypeScript, Technology.Svelte],
 	},
 	{
