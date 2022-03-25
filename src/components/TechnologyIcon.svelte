@@ -46,11 +46,4 @@ svg {
 	margin-left: 5px;
 	margin-bottom: 0px;
 }
-svg::after {
-	content: "hello";
-	position: absolute;
-	color: white;
-	width: 200px;
-	height: 200px;
-}
 </style>
