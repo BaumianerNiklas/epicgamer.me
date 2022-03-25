@@ -43,7 +43,7 @@ p {
 	margin-top: 1.3rem;
 	display: grid;
 	max-width: 70vw;
-	grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
 	gap: 1rem;
 }
 </style>
