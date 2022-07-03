@@ -44,5 +44,10 @@ export const projectData: Project[] = [
 		description: "Simple Rust CLI for getting basic information about Pokemon using PokéApi",
 		repoName: "rustdex",
 		stack: [Technology.Rust],
-	},
+	}, {
+		name: "FasTeX",
+		description: "Rust CLI for quickly compiling LaTeX expression to beautiful PNGs",
+		repoName: "FasTeX",
+		stack: [Technology.Rust],
+	}
 ];
